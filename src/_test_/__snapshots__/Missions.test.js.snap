@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions page renders Missions page correctly 1`] = `
+<div
+  className="container"
+>
+  <table
+    className="margin-30 table table-sm table-striped table-bordered table-hover"
+    data-testid="mission"
+  >
+    <thead>
+      <tr>
+        <th
+          style={
+            Object {
+              "padding": "8px",
+              "width": "180px",
+            }
+          }
+        >
+          Mission
+        </th>
+        <th
+          style={
+            Object {
+              "padding": "8px",
+            }
+          }
+        >
+          Description
+        </th>
+        <th
+          style={
+            Object {
+              "padding": "8px",
+              "width": "150px",
+            }
+          }
+        >
+          Status
+        </th>
+        <th
+          style={
+            Object {
+              "padding": "8px",
+              "width": "150px",
+            }
+          }
+        >
+           
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;
+
+exports[`Missions page renders correctly 1`] = `
+<div
+  className="container"
+>
+  <table
+    className="margin-30 table table-sm table-striped table-bordered table-hover"
+    data-testid="mission"
+  >
+    <thead>
+      <tr>
+        <th
+          style={
+            Object {
+              "padding": "8px",
+              "width": "180px",
+            }
+          }
+        >
+          Mission
+        </th>
+        <th
+          style={
+            Object {
+              "padding": "8px",
+            }
+          }
+        >
+          Description
+        </th>
+        <th
+          style={
+            Object {
+              "padding": "8px",
+              "width": "150px",
+            }
+          }
+        >
+          Status
+        </th>
+        <th
+          style={
+            Object {
+              "padding": "8px",
+              "width": "150px",
+            }
+          }
+        >
+           
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;

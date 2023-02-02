@@ -1,0 +1,61 @@
+.rocket-section {
+  display: flex;
+  padding: 8px;
+  height: 200px;
+}
+
+.rocket-info {
+  display: flex;
+}
+
+.rocket-image {
+  width: 16%;
+}
+
+.rocket-detail {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.rocket-summary {
+  text-align: initial;
+}
+
+.rocket-name {
+  display: contents;
+}
+
+.cancel-reservation,
+.reserve-rocket {
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 13px;
+}
+
+.cancel-reservation {
+  font-weight: 600;
+  width: 8.2rem;
+}
+
+.reserve-rocket {
+  background-color: #1375cc;
+  border: none;
+  box-shadow: 6px 6px 10px -1px rgb(0 0 0 / 15%), -6px -6px 10px -1px hsl(0deg 0% 100% / 70%);
+  color: #fff;
+  width: 6.4rem;
+}
+
+.reserved {
+  background-color: #389791;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 6px 6px 10px -1px rgb(0 0 0 / 15%), -6px -6px 10px -1px hsl(0deg 0% 100% / 70%);
+  color: #fff;
+  margin-bottom: 0.5rem;
+  margin-right: 0.4rem;
+  padding: 0 0.3rem 0.25rem;
+  text-align: center;
+}

@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin-bottom: 70px;
+}
+
+.App-logo {
+  height: 50px;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  color: #282c34;
+  box-shadow: 0 10px 10px 5px #fff;
+  border: 1px solid #b3b1b1bf;
+  padding: 5px 30px;
+}
+
+.MenuNav {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  gap: 24px;
+}
+
+.NavBar {
+  position: relative;
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.NavBar a {
+  display: block;
+  font-size: 16px;
+  padding: 8px 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #61dafb;
+}
+
+.NavBar a:hover {
+  color: #282c34;
+}
+
+.NavBar a:focus {
+  color: #282c34;
+  text-decoration: underline;
+}
+
+.rocket-list {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 40px;
+}
+
+.text-middle {
+  vertical-align: middle;
+}
+
+.margin-30 {
+  margin: 30px 0 100px 0;
+}
+
+.padding-16 {
+  padding: 16px;
+}
+
+.space {
+  gap: 24px;
+}

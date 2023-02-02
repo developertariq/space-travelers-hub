@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders Header section correctly 1`] = `
+<header
+  className="App-header"
+  data-testid="header"
+>
+  <img
+    alt="Planet logo"
+    className="App-logo"
+    src="planet.png"
+  />
+  <h1
+    className="title"
+    data-testid="site-title"
+  >
+    Space Travelers' Hub
+  </h1>
+  <nav
+    className="NavBar"
+    data-testid="navbar"
+  >
+    <ul
+      className="MenuNav"
+    >
+      <li>
+        <a
+          activeClassName="active-link"
+          aria-current="page"
+          className="active"
+          exact={true}
+          href="/"
+          onClick={[Function]}
+        >
+          Rockets
+        </a>
+      </li>
+      <li>
+        <a
+          activeClassName="active-link"
+          className=""
+          exact={true}
+          href="/Missions"
+          onClick={[Function]}
+        >
+          Missions
+        </a>
+      </li>
+      <li>
+        <a
+          activeClassName="active-link"
+          className=""
+          exact={true}
+          href="/MyProfile"
+          onClick={[Function]}
+        >
+          My Profile
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
+
+exports[`Header renders correctly 1`] = `
+<header
+  className="App-header"
+  data-testid="header"
+>
+  <img
+    alt="Planet logo"
+    className="App-logo"
+    src="planet.png"
+  />
+  <h1
+    className="title"
+    data-testid="site-title"
+  >
+    Space Travelers' Hub
+  </h1>
+  <nav
+    className="NavBar"
+    data-testid="navbar"
+  >
+    <ul
+      className="MenuNav"
+    >
+      <li>
+        <a
+          activeClassName="active-link"
+          aria-current="page"
+          className="active"
+          exact={true}
+          href="/"
+          onClick={[Function]}
+        >
+          Rockets
+        </a>
+      </li>
+      <li>
+        <a
+          activeClassName="active-link"
+          className=""
+          exact={true}
+          href="/Missions"
+          onClick={[Function]}
+        >
+          Missions
+        </a>
+      </li>
+      <li>
+        <a
+          activeClassName="active-link"
+          className=""
+          exact={true}
+          href="/MyProfile"
+          onClick={[Function]}
+        >
+          My Profile
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
